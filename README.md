@@ -5,4 +5,9 @@ Benchmarking Malaysian Speech-to-Text models, HuggingFace space at https://huggi
 📈 We evaluate models based on 2 datasets,
 
 1. Fleurs MY-MS test set, https://huggingface.co/datasets/malaysia-ai/fleurs-my-ms
-2. IMDA TTS first 1000 audio files, https://huggingface.co/datasets/mesolitica/IMDA-TTS
+2. IMDA TTS first 700 audio files, https://huggingface.co/datasets/mesolitica/IMDA-TTS
+
+During test we,
+
+1. Lowercase.
+2. Remove punctuations.
